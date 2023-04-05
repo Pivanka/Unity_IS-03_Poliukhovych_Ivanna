@@ -793,7 +793,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.875114, y: 4.99, z: -10}
+  m_LocalPosition: {x: 8.876851, y: 4.99, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1269,7 +1269,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745329352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.012671471, y: 4.99, z: -10}
+  m_LocalPosition: {x: -0.015277386, y: 4.99, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1625,7 +1625,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148117535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.875114, y: 4.99, z: -10}
+  m_LocalPosition: {x: 8.876851, y: 4.99, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2596,7 +2596,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1472966672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5624472b40720944296b99cbe1b20b99, type: 3}
+  m_Script: {fileID: 11500000, guid: a5a00585db305a94499bb717fb20765e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _joystick: {fileID: 1467824145}
@@ -2719,13 +2719,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 1542122620}
-  _horizontalSpeed: 8
-  _direction: 0
-  _verticalSpeed: 4
-  _maxVerticalPosition: 2.95
-  _minVerticalPosition: 1.8
-  _jumpForce: 800
-  _gravityScale: 5
+  _directionalMovementData:
+    <Direction>k__BackingField: 0
+    <MaxVerticalPosition>k__BackingField: 2.9
+    <MinVerticalPosition>k__BackingField: 2.3
+  _jumpData:
+    <GravityScale>k__BackingField: 5
   _cameras:
     _rightCamera: {fileID: 1148117536}
     _leftCamera: {fileID: 745329353}
